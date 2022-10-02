@@ -20,4 +20,4 @@ const getPrice = (originalPrice, typePromotion) => {
   return getPriceStrategies[typePromotion](originalPrice)
 }
 
-console.log('Boy 🚀 ~> getPrice', getPrice(200, 'preOrder'))
+console.log('Tai Vo 🚀 ~> getPrice', getPrice(200, 'preOrder'))
